@@ -32,3 +32,7 @@ python bing_search_bot.py --queries queries.txt --profile-dir .bing-profile --de
 
 - Keep the `.bing-profile` directory safe; it contains cookies/session data.
 - Be mindful of Bing/Microsoft terms of service and your account policies.
+
+## Troubleshooting
+
+- **Windows PATH warning for `playwright.exe`**: If you see a warning about the script install location not being on your PATH, you can either add that Scripts directory to PATH or keep using `python -m playwright ...` commands to avoid the warning.
